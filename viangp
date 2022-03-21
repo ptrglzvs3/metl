@@ -1,0 +1,7 @@
+$ cp gcconfig.pri.in gcconfig.pri
+$ vi gcconfig.pri
+
+Uncomment below and configure the location of the GNU scientific library, this is a mandatory dependency.
+
+#GSL_INCLUDES = /usr/include
+#GSL_LIBS = -lgsl -lgslcblas -lm
